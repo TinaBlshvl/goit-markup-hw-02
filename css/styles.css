@@ -3,14 +3,16 @@
     --title-text-color: #212121;
     --text-color: #757575;
     --btn-color: #F5F4FA;
+    --white-color: #fff;
 }
 
 
 .page {
-    background-color: #fff;
+    background-color: var(--white-color);
     font-family: 'Roboto', sans-serif;
     color: var(--title-text-color);
-    
+    font-size: 14px;
+    letter-spacing: 0.03em;   
 }
 
 .link {
@@ -20,10 +22,9 @@
 
 .logo {
     text-decoration: none;
-    color: black;
+    color: #000;
     
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -38,8 +39,6 @@ ul {
     list-style: none;
 }
 .site-nav .link {
-    font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -58,8 +57,6 @@ ul {
 .contacts .link {
     color: var(--text-color);
     
-    font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -68,74 +65,65 @@ ul {
 .footer {
     background-color: #2F303A;
 }
-.header {
-    color: white;
-    
-    font-weight: 900;
+.hero-title {
+    color: var(--white-color);
+
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
 }
-.hero-button{
+.hero-btn{
     background-color: var(--accent-color);
-    color: #fff;
+    color: var(--white-color);
     cursor: pointer;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
-.privilege .header-list {
-    font-weight: 700;
-    font-size: 14px;
+.privilege .til-title {
     line-height: 1.14;
-    letter-spacing: 0.03em;
 }
 
-.privilege-list .text {
+.privilege-text {
     color: var(--text-color);
 
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
-.title {   
-    font-weight: 700;
+.section-title {   
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team {
     background-color: #F5F4FA;
 }
 
-.team .header-list {
+.team .til-title {
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
 }
 
 .team .text {
     color: var(--text-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
 }
 
 .team-list-item {
-    background-color: white;
+    background-color: var(--white-color);
 }
 
 .address-link,
 .address .link{
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .address .link {
@@ -144,24 +132,30 @@ ul {
 }
 
 .address-link {
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
     font-style: normal;
 }
 
-.portfolio.navi-btn {
+.portfolio .navi-btn {
     background-color:  var(--btn-color);
+    
     cursor: pointer;
+
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    border-radius: 4px;
 }
 
 .portfolio .navi-btn:hover,
 .portfolio .navi-btn:focus {
    background-color: var(--accent-color);
-   color: white;
+   color: var(--white-color);
 }
 
 .portfolio-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -170,18 +164,14 @@ ul {
 .portfolio .text {
     color: var(--text-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
 }
 
 .footer .logo {
-    color: white;
+    color: var(--white-color);
 }
 
-.footer .address-link:hover,
-.footer .address-link:focus,
 .footer .link:hover,
 .footer .link:focus {
     color: var(--accent-color);
@@ -200,3 +190,4 @@ ul {
     clip-path: inset(50%);
     margin: -1px;
 }
+
