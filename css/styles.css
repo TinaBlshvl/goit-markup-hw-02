@@ -41,6 +41,7 @@ ul {
 .site-nav .link {
     line-height: 1.14;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .site-nav .link:hover,
@@ -59,6 +60,7 @@ ul {
     
     line-height: 1.14;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .hero,
@@ -72,6 +74,7 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-btn{
     background-color: var(--accent-color);
@@ -81,12 +84,19 @@ ul {
     height: 50px;
     left: 692px;
     top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
-.privilege .til-title {
+.privilege .privilege-title {
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .privilege-text {
@@ -105,12 +115,13 @@ ul {
     background-color: #F5F4FA;
 }
 
-.team .til-title {
+.team .team-title {
     font-size: 16px;
     line-height: 1.18;
+    font-weight: 500;
 }
 
-.team .text {
+.team .team-text {
     color: var(--text-color);
 
     font-size: 16px;
@@ -141,12 +152,10 @@ ul {
     background-color:  var(--btn-color);
     
     cursor: pointer;
-
-    width: 125px;
-    height: 38px;
-    left: 593px;
-    top: 174px;
     border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .portfolio .navi-btn:hover,
@@ -155,13 +164,18 @@ ul {
    color: var(--white-color);
 }
 
+.portfolio .navi-btn.current {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
 .portfolio-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio .text {
+.portfolio .portfolio-text {
     color: var(--text-color);
 
     font-size: 16px;
